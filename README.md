@@ -1,6 +1,6 @@
 # p3ntestMobile
 
-Anotações de estudo sobre pentest em aplicações mobile: Andoird & IOS - Por @wakaw4nn
+Anotações de estudo sobre pentest em aplicações mobile: Andoird (e quem sabe futuramente IOS) - Por @wakaw4nn
 
 ## Seções
 - [0. Ferramentas]()
@@ -23,9 +23,17 @@ Aqui se encontra um inventário de ferramentas voltadas para pentest mobile.
 ### APK retrieval
 https://apps.evozi.com/apk-downloader/    
 ### Apktool
+Engenharia reversa em arquivos APK 
+https://apktool.org/
 ### Dex2jar
+Converte .dex em .jar e arquivos smali 
+https://github.com/pxb1988/dex2jar
 ### JD-GUI
+"Yet another fast Java decompiler"
+https://java-decompiler.github.io/
 ### Jadx
+Converte arquivos .dex e apk em código Java
+https://github.com/skylot/jadx
 
 
 ## Vulnerabilidades
