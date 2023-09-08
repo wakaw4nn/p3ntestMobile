@@ -38,3 +38,13 @@ https://github.com/skylot/jadx
 
 ## Vulnerabilidades
 Para estudo teórico e exploração das vulnerabilidades aqui listadas, usaremos o App [Diva](https://github.com/payatu/diva-android) - Um aplicativo intencionalmente vulnerável que servirá como cobaia. 
+
+### Insecure Logging
+Algumas vezes, intencionalmente ou não, programadores registram em log informações sensíveis. 
+ <img src="https://github.com/wakaw4nn/p3ntestMobile/blob/main/img/insecure-logging-code.png"/>
+
+
+
+
+
+
