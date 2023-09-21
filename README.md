@@ -43,6 +43,21 @@ Para estudo teórico e exploração das vulnerabilidades aqui listadas, usaremos
 Algumas vezes, intencionalmente ou não, programadores registram em log informações sensíveis. 
  <img src="https://github.com/wakaw4nn/p3ntestMobile/blob/main/img/insecure-logging-code.png"/>
 
+Explorar isso é muito fácil, através do lotcat - um utilitário para monitorar os logs do sistema no emulador android.
+ 
+[insecure-logging.webm](https://github.com/wakaw4nn/p3ntestMobile/assets/143054074/89466cde-37bc-40a7-8c13-8aaf5186d67a)
+
+### Hardcoding Inssues 
+Este problema ocorre quando o desenvolvedor escreve alguma credencial em texto plano (ou com criptografia fraca) diretamente no código. Neste caso, o desenvolvedor utiliza um método de autenticação inseguro, comparando o input do usuário com a credencial declarada no código.
+![hardcoding-inssues](https://github.com/wakaw4nn/p3ntestMobile/assets/143054074/7c1ef254-746f-45b1-9d45-311b777b6678)
+
+### Armazenamento Inseguro de Dados
+Informações senssíveis devem ser armazenadas de forma adequada, fazendo uso de criptografia e controle de acesso. Quando tais controles de segurança não existe, temos vulnerabilidades de armazenamento inseguro. Abaixo vou abordar alguns cenários de armazenamento inseguro. 
+
+#### Shared Preferences  
+
+#### Banco de Dados - SQLite
+
 
 
 
